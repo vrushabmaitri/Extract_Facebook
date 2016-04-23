@@ -5,7 +5,7 @@ import re
 import requests
 import csv
 
-access_token = "EAACEdEose0cBACVtkzfbfRinu0kWYi2QaJtPczxGbu6WNAkVtdlTJv3Rz9BtZCeJGkjnN5rqga4pUsZAtameyvEJfLREYDJBlrrfIEn0H4t2pYO54uaW7intAZCJyUvlWmptudZCgN888ITl2xxr8aUEC5aRDYca9evESWPuWQZDZD"
+access_token = ""#add token here
 graph = facebook.GraphAPI(access_token)
 
 profile = graph.get_object("me") 
